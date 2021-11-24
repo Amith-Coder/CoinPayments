@@ -1,12 +1,12 @@
 /*CMD
-  command: /CutBal
+  command: /cutBalance2
   help: 
   need_reply: true
   auto_retry_time: 
   folder: Admin Panel
   answer: _✍️Enter How Much You Want To Add_
   keyboard: 
-  aliases: 
+  aliases: /CutBal 
 CMD*/
 
 var admin = Bot.getProperty("admin")
