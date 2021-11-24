@@ -1,12 +1,12 @@
 /*CMD
-  command: /brdmsg
+  command: /broadcastMessage
   help: 
   need_reply: true
   auto_retry_time: 
   folder: Admin Panel
   answer: 📌*Send your message*
   keyboard: 
-  aliases: 
+  aliases: /brdmsg
 CMD*/
 
 var admin = Bot.getProperty("admin")
