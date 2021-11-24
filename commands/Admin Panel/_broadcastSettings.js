@@ -1,12 +1,12 @@
 /*CMD
-  command: /massse
+  command: /broadcastSettings
   help: 
   need_reply: 
   auto_retry_time: 
   folder: Admin Panel
   answer: 
   keyboard: 
-  aliases: 
+  aliases: /massse
 CMD*/
 
 if (request.data) {
