@@ -1,5 +1,5 @@
 /*CMD
-  command: /mainSetiings
+  command: /mainSettings
   help: 
   need_reply: 
   auto_retry_time: 
