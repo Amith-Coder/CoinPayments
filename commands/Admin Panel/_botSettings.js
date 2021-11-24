@@ -1,12 +1,12 @@
 /*CMD
-  command: /bots
+  command: /botSettings
   help: 
   need_reply: 
   auto_retry_time: 
   folder: Admin Panel
   answer: 
   keyboard: 
-  aliases: 
+  aliases: /bots
 CMD*/
 
 if (request.data) {
