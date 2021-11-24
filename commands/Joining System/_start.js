@@ -9,17 +9,11 @@
   aliases: 
 CMD*/
 
-var button = [{ title: "🥏 Joined 🥏", command: "✅Joined" }]
-Bot.sendInlineKeyboard(
-  button,
-  "_📛You Must Be In Our Telegram Chats To Use Our Bot\n\n1 - Join Our _[Main Channel](https://t.me/asproaia)_\n\nClick “🥏 Joined 🥏” button After Join All Above Channels_",
-  { disable_web_page_preview: "true" }
-)
-
+Bot.runCommand("/main")
 let welco = User.getProperty("welco")
 if (welco == undefined) {
   var status = Libs.ResourcesLib.anotherChatRes("status", "global")
-  status.add(1)
+  status.add(0)
 
   User.setProperty("welco", user.telegramid, "text")
 }
