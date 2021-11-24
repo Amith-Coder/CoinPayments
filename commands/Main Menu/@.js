@@ -18,3 +18,13 @@ if (request.data) {
     message_id: message_id
   })
 }
+var isAdmin = ( user && (user.id == 3027702) )
+if((command.folder=="Admin Panel")&&(isAdmin){
+  // only admin can run command from Admin Panel's folder
+  // any common bjs here for admin
+  Bot.sendMessage("Hello, admin!")
+}else{
+  Bot.sendMessage("Access denied");
+  return // exit from command now
+
+}
