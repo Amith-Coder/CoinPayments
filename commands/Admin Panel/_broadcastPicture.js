@@ -1,12 +1,12 @@
 /*CMD
-  command: /brdpic
+  command: /broadcastPicture
   help: 
   need_reply: true
   auto_retry_time: 
   folder: Admin Panel
   answer: *🌌 Send Your Photo And Caption For Broadcast.*
   keyboard: 
-  aliases: 
+  aliases: /brdpic
 CMD*/
 
 var admin = Bot.getProperty("admin")
