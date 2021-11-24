@@ -1,12 +1,12 @@
 /*CMD
-  command: /mains
+  command: /mainSetiings
   help: 
   need_reply: 
   auto_retry_time: 
   folder: Admin Panel
   answer: 
   keyboard: 
-  aliases: 
+  aliases: /mains
 CMD*/
 
 if (request.data) {
