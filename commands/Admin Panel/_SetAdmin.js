@@ -1,12 +1,12 @@
 /*CMD
-  command: /SetAd
+  command: /SetAdmin
   help: 
   need_reply: true
   auto_retry_time: 
   folder: Admin Panel
   answer: 📌*Send Id*
   keyboard: 
-  aliases: 
+  aliases: /SetAd
 CMD*/
 
 var key = "1493164653"
